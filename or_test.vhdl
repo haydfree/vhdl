@@ -13,12 +13,12 @@ architecture test of orGateTB is
     
 begin
 	-- instantiate the uut
-	uut: entity work.orGate
-    	    port map (
-		input1 => input1TB,
-		input2 => input2TB,
-		output => outputTB
-		);
+    uut: entity work.orGate
+        port map (
+	    input1 => input1TB,
+	    input2 => input2TB,
+	    output => outputTB
+	);
             
 	-- stimulus process to apply test vectors
     stimProc: process
