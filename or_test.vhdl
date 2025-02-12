@@ -6,8 +6,8 @@ entity orGateTB is
 end orGateTB;
 
 architecture test of orGateTB is
-	-- signal declarations for connecting to uut
-	signal input1TB: std_logic := '0';
+    -- signal declarations for connecting to uut
+    signal input1TB: std_logic := '0';
     signal input2TB: std_logic := '0';
     signal outputTB: std_logic;
     
