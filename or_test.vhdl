@@ -12,7 +12,7 @@ architecture test of orGateTB is
     signal outputTB: std_logic;
     
 begin
-	-- instantiate the uut
+    -- instantiate the uut
     uut: entity work.orGate
         port map (
 	    input1 => input1TB,
@@ -20,7 +20,7 @@ begin
 	    output => outputTB
 	);
             
-	-- stimulus process to apply test vectors
+    -- stimulus process to apply test vectors
     stimProc: process
     begin
     	-- test case 1: 0 or 0 = 0
