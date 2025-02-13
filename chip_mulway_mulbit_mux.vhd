@@ -53,7 +53,7 @@ end architecture;
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity CHIP_16WAY_MULBIT_MUX is
+entity CHIP_8WAY_MULBIT_MUX is
 
     port(
         a: in std_logic_vector(15 downto 0) := (others => '0');
@@ -70,7 +70,7 @@ entity CHIP_16WAY_MULBIT_MUX is
 
 end entity;
 
-architecture rlt of CHIP_16WAY_MULBIT_MUX is
+architecture rlt of CHIP_8WAY_MULBIT_MUX is
 	
     signal ab, cd, ef, gh, abcd, efgh: std_logic_vector(15 downto 0);
 
