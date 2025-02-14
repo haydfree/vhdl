@@ -1,19 +1,20 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity HACK_NOT is
+entity HACK_NAND is
     
     port(
         IN0: in std_logic;
+        IN1: in std_logic;
         OUT0: out std_logic
     );
 
 end entity;
 
-architecture rtl of HACK_NOT is
+architecture rtl of HACK_NAND is
 
 begin
-
-    uHACK_NAND: entity work.HACK_NAND port map(IN0=>IN0, IN1=>IN0, OUT0=>OUT0);
     
+    OUT0 <= IN0 nand IN1;
+
 end architecture;
