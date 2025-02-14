@@ -1,4 +1,10 @@
 v 4
+file . "hack_nor.vhd" "6b5c0d8a44bc1a6196a2fb2ba5ce616db7b7a233" "20250214212903.425":
+  entity hack_nor at 1( 0) + 0 on 57;
+  architecture rtl of hack_nor at 12( 175) + 0 on 58;
+file . "test_hack_xor.vhd" "45f30297a843466c83be4daa1f89ab92aa61f274" "20250214212321.393":
+  entity tbhack_xor at 1( 0) + 0 on 55;
+  architecture test of tbhack_xor at 7( 78) + 0 on 56;
 file . "hack_or.vhd" "f736af32b7e10bf3488c5edc543ee7bd9e6be9bb" "20250214210152.945":
   entity hack_or at 1( 0) + 0 on 45;
   architecture rtl of hack_or at 14( 222) + 0 on 46;
@@ -23,3 +29,9 @@ file . "hack_and.vhd" "f77fc745535eb7614484807dcefd4e35b7cbd644" "20250214204900
 file . "test_hack_or.vhd" "265d5d4b7cdc296ff93bd4f3c05487b510dd41a8" "20250214210224.259":
   entity tbhack_or at 1( 0) + 0 on 49;
   architecture test of tbhack_or at 7( 77) + 0 on 50;
+file . "hack_xor.vhd" "64ddc163aec5c02e8fdd791e761a563b3bffb49e" "20250214212243.679":
+  entity hack_xor at 1( 0) + 0 on 51;
+  architecture rtl of hack_xor at 14( 226) + 0 on 52;
+file . "test_hack_nor.vhd" "755be5652e0f57deceac4d7a49b5a334162d7611" "20250214212941.045":
+  entity tbhack_nor at 1( 0) + 0 on 61;
+  architecture test of tbhack_nor at 7( 78) + 0 on 62;
