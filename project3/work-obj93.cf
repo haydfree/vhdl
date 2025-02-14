@@ -41,3 +41,9 @@ file . "hack_nor.vhd" "6b5c0d8a44bc1a6196a2fb2ba5ce616db7b7a233" "20250214212903
 file . "test_hack_xnor.vhd" "f02c68fabce151dcfce2de539013d2fbe678112a" "20250214213459.009":
   entity tbhack_xnor at 1( 0) + 0 on 67;
   architecture test of tbhack_xnor at 7( 79) + 0 on 68;
+file . "hack_half_adder_1.vhd" "0e34acbcdba1dc2c31e8e373cfb945a90f3561a3" "20250214214652.861":
+  entity hack_half_adder_1 at 1( 0) + 0 on 71;
+  architecture rtl of hack_half_adder_1 at 13( 212) + 0 on 72;
+file . "test_hack_half_adder_1.vhd" "9db00bcfbbca2427cf422cbc99fea0dc64b87a1b" "20250214214738.012":
+  entity tbhack_half_adder_1 at 1( 0) + 0 on 75;
+  architecture test of tbhack_half_adder_1 at 7( 87) + 0 on 76;
