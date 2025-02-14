@@ -1,19 +1,25 @@
 v 4
-file . "hack_and.vhd" "f77fc745535eb7614484807dcefd4e35b7cbd644" "20250214204900.365":
-  entity hack_and at 1( 0) + 0 on 39;
-  architecture rtl of hack_and at 12( 175) + 0 on 40;
-file . "test_hack_not.vhd" "b2724c07e14195e6e552b9b00f7a90496afea4c7" "20250214204022.835":
-  entity tbhack_not at 1( 0) + 0 on 37;
-  architecture test of tbhack_not at 7( 78) + 0 on 38;
-file . "hack_nand.vhd" "17c8049b253364ec72ce8b640f0ff5edc488f09d" "20250214203045.181":
-  entity hack_nand at 1( 0) + 0 on 23;
-  architecture rtl of hack_nand at 14( 182) + 0 on 24;
-file . "test_hack_nand.vhd" "bf61719edad731ff098eabe864e23251882e87b2" "20250214203510.540":
-  entity tbhack_nand at 1( 0) + 0 on 31;
-  architecture test of tbhack_nand at 7( 79) + 0 on 32;
-file . "hack_not.vhd" "fcbeb4484999f61d1f6c319b1bc41467a0e40d56" "20250214203928.755":
-  entity hack_not at 1( 0) + 0 on 33;
-  architecture rtl of hack_not at 13( 154) + 0 on 34;
+file . "hack_or.vhd" "f736af32b7e10bf3488c5edc543ee7bd9e6be9bb" "20250214210152.945":
+  entity hack_or at 1( 0) + 0 on 45;
+  architecture rtl of hack_or at 14( 222) + 0 on 46;
 file . "test_hack_and.vhd" "9d6488fe1abe3920086de6433ed27e121574c7f0" "20250214204933.116":
   entity tbhack_and at 1( 0) + 0 on 43;
   architecture test of tbhack_and at 7( 78) + 0 on 44;
+file . "hack_not.vhd" "fcbeb4484999f61d1f6c319b1bc41467a0e40d56" "20250214203928.755":
+  entity hack_not at 1( 0) + 0 on 33;
+  architecture rtl of hack_not at 13( 154) + 0 on 34;
+file . "test_hack_nand.vhd" "bf61719edad731ff098eabe864e23251882e87b2" "20250214203510.540":
+  entity tbhack_nand at 1( 0) + 0 on 31;
+  architecture test of tbhack_nand at 7( 79) + 0 on 32;
+file . "hack_nand.vhd" "17c8049b253364ec72ce8b640f0ff5edc488f09d" "20250214203045.181":
+  entity hack_nand at 1( 0) + 0 on 23;
+  architecture rtl of hack_nand at 14( 182) + 0 on 24;
+file . "test_hack_not.vhd" "b2724c07e14195e6e552b9b00f7a90496afea4c7" "20250214204022.835":
+  entity tbhack_not at 1( 0) + 0 on 37;
+  architecture test of tbhack_not at 7( 78) + 0 on 38;
+file . "hack_and.vhd" "f77fc745535eb7614484807dcefd4e35b7cbd644" "20250214204900.365":
+  entity hack_and at 1( 0) + 0 on 39;
+  architecture rtl of hack_and at 12( 175) + 0 on 40;
+file . "test_hack_or.vhd" "265d5d4b7cdc296ff93bd4f3c05487b510dd41a8" "20250214210224.259":
+  entity tbhack_or at 1( 0) + 0 on 49;
+  architecture test of tbhack_or at 7( 77) + 0 on 50;
