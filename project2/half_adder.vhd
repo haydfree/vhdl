@@ -5,13 +5,15 @@ entity HALF_ADDER is
     port(
         a: in std_logic;
         b: in std_logic;
-        q: out std_logic
+        sum: out std_logic;
+        car: out std_logic
     );
 end entity;
 
 architecture rtl of HALF_ADDER is 
 
 begin
-    q <= a and b;
+    sum <= a xor b;
+    car <= a and b;
 
 end architecture;
