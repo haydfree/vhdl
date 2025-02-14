@@ -1,7 +1,10 @@
 v 4
-file . "test.vhd" "99211d42f955640ac34deeebda4a1b36bc7da263" "20250214115740.624":
-  entity tb at 1( 0) + 0 on 23;
-  architecture test of tb at 7( 70) + 0 on 24;
+file . "test.vhd" "5bd555abe6cca5d6f328dadfa293573326455473" "20250214121805.208":
+  entity tb at 1( 0) + 0 on 43;
+  architecture test of tb at 7( 70) + 0 on 44;
 file . "half_adder.vhd" "5ff7136916251a6e17d7b7bbac2c103529dd2f45" "20250214115038.182":
   entity half_adder at 1( 0) + 0 on 19;
   architecture rtl of half_adder at 13( 200) + 0 on 20;
+file . "full_adder.vhd" "07cf22c7899af79b37281d05c6a573e3e509ad77" "20250214121348.043":
+  entity full_adder at 1( 0) + 0 on 29;
+  architecture rtl of full_adder at 14( 230) + 0 on 30;
