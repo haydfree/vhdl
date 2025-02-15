@@ -1,79 +1,79 @@
 v 4
-file . "test_hack_full_adder_8.vhd" "b8ac9be12c9f7ccf2b8c2974744bfcd1fabfb14d" "20250215112256.012":
-  entity tbhack_full_adder_8 at 1( 0) + 0 on 129;
-  architecture test of tbhack_full_adder_8 at 8( 113) + 0 on 130;
-file . "hack_full_adder_8.vhd" "2ac77d3868a56260ddff2c11161e2cec1479fe04" "20250215112254.104":
-  entity hack_full_adder_8 at 1( 0) + 0 on 127;
-  architecture rtl of hack_full_adder_8 at 12( 233) + 0 on 128;
-file . "test_hack_full_adder_4.vhd" "fce9bbd8730b88c9e3a76eac4690cb6ceba3de74" "20250215111539.952":
-  entity tbhack_full_adder_4 at 1( 0) + 0 on 123;
-  architecture test of tbhack_full_adder_4 at 8( 113) + 0 on 124;
-file . "hack_full_adder_4.vhd" "22b7f638a64bd85d8753fb5a625d6f5f499f760a" "20250215111043.613":
-  entity hack_full_adder_4 at 1( 0) + 0 on 117;
-  architecture rtl of hack_full_adder_4 at 12( 233) + 0 on 118;
-file . "hack_half_adder_4.vhd" "b54e955f8136595c3863579bd78d595e6e07751e" "20250215104250.013":
-  entity hack_half_adder_4 at 1( 0) + 0 on 99;
-  architecture rtl of hack_half_adder_4 at 13( 288) + 0 on 100;
-file . "hack_full_adder_1.vhd" "e19409b0511e65ef5b1e501ff62f56b7e88a80e1" "20250214220702.881":
-  entity hack_full_adder_1 at 1( 0) + 0 on 77;
-  architecture rtl of hack_full_adder_1 at 14( 239) + 0 on 78;
-file . "test_hack_half_adder_1.vhd" "9db00bcfbbca2427cf422cbc99fea0dc64b87a1b" "20250214214738.012":
-  entity tbhack_half_adder_1 at 1( 0) + 0 on 75;
-  architecture test of tbhack_half_adder_1 at 7( 87) + 0 on 76;
-file . "hack_half_adder_1.vhd" "0e34acbcdba1dc2c31e8e373cfb945a90f3561a3" "20250214214652.861":
-  entity hack_half_adder_1 at 1( 0) + 0 on 71;
-  architecture rtl of hack_half_adder_1 at 13( 212) + 0 on 72;
-file . "test_hack_xnor.vhd" "f02c68fabce151dcfce2de539013d2fbe678112a" "20250214213459.009":
-  entity tbhack_xnor at 1( 0) + 0 on 67;
-  architecture test of tbhack_xnor at 7( 79) + 0 on 68;
-file . "hack_nor.vhd" "6b5c0d8a44bc1a6196a2fb2ba5ce616db7b7a233" "20250214212903.425":
-  entity hack_nor at 1( 0) + 0 on 57;
-  architecture rtl of hack_nor at 12( 175) + 0 on 58;
-file . "test_hack_xor.vhd" "45f30297a843466c83be4daa1f89ab92aa61f274" "20250214212321.393":
-  entity tbhack_xor at 1( 0) + 0 on 55;
-  architecture test of tbhack_xor at 7( 78) + 0 on 56;
-file . "hack_or.vhd" "f736af32b7e10bf3488c5edc543ee7bd9e6be9bb" "20250214210152.945":
-  entity hack_or at 1( 0) + 0 on 45;
-  architecture rtl of hack_or at 14( 222) + 0 on 46;
-file . "test_hack_and.vhd" "9d6488fe1abe3920086de6433ed27e121574c7f0" "20250214204933.116":
-  entity tbhack_and at 1( 0) + 0 on 43;
-  architecture test of tbhack_and at 7( 78) + 0 on 44;
-file . "hack_not.vhd" "fcbeb4484999f61d1f6c319b1bc41467a0e40d56" "20250214203928.755":
-  entity hack_not at 1( 0) + 0 on 33;
-  architecture rtl of hack_not at 13( 154) + 0 on 34;
-file . "test_hack_nand.vhd" "bf61719edad731ff098eabe864e23251882e87b2" "20250214203510.540":
-  entity tbhack_nand at 1( 0) + 0 on 31;
-  architecture test of tbhack_nand at 7( 79) + 0 on 32;
-file . "hack_nand.vhd" "17c8049b253364ec72ce8b640f0ff5edc488f09d" "20250214203045.181":
-  entity hack_nand at 1( 0) + 0 on 23;
-  architecture rtl of hack_nand at 14( 182) + 0 on 24;
-file . "test_hack_not.vhd" "b2724c07e14195e6e552b9b00f7a90496afea4c7" "20250214204022.835":
-  entity tbhack_not at 1( 0) + 0 on 37;
-  architecture test of tbhack_not at 7( 78) + 0 on 38;
-file . "hack_and.vhd" "f77fc745535eb7614484807dcefd4e35b7cbd644" "20250214204900.365":
-  entity hack_and at 1( 0) + 0 on 39;
-  architecture rtl of hack_and at 12( 175) + 0 on 40;
-file . "test_hack_or.vhd" "265d5d4b7cdc296ff93bd4f3c05487b510dd41a8" "20250214210224.259":
-  entity tbhack_or at 1( 0) + 0 on 49;
-  architecture test of tbhack_or at 7( 77) + 0 on 50;
-file . "hack_xor.vhd" "64ddc163aec5c02e8fdd791e761a563b3bffb49e" "20250214212243.679":
-  entity hack_xor at 1( 0) + 0 on 51;
-  architecture rtl of hack_xor at 14( 226) + 0 on 52;
-file . "test_hack_nor.vhd" "755be5652e0f57deceac4d7a49b5a334162d7611" "20250214212941.045":
-  entity tbhack_nor at 1( 0) + 0 on 61;
-  architecture test of tbhack_nor at 7( 78) + 0 on 62;
-file . "hack_xnor.vhd" "e124232cb8281c86fb0a6cf5127ac32ad1cbc857" "20250214213427.355":
-  entity hack_xnor at 1( 0) + 0 on 63;
-  architecture rtl of hack_xnor at 12( 176) + 0 on 64;
-file . "test_hack_full_adder_1.vhd" "1c856f20f1481f1f02336e22d2a718d2fc634996" "20250214220754.281":
-  entity tbhack_full_adder_1 at 1( 0) + 0 on 81;
-  architecture test of tbhack_full_adder_1 at 7( 87) + 0 on 82;
-file . "hack_incrementer_4.vhd" "5623a9d10dfed424c476ec6b0029aacc7d662b46" "20250214230415.014":
-  entity hack_incrementer_4 at 1( 0) + 0 on 85;
-  architecture rtl of hack_incrementer_4 at 11( 196) + 0 on 86;
-file . "test_hack_incrementer_4.vhd" "f6b625cdd3e86630b093491bcc42ad8992cb81f6" "20250214231155.744":
-  entity tb_hack_incrementer_4 at 1( 0) + 0 on 91;
-  architecture behavior of tb_hack_incrementer_4 at 8( 115) + 0 on 92;
 file . "test_hack_half_adder_4.vhd" "d69022bbb585eb0e1803405458667394bb980e6d" "20250215104244.915":
   entity tbhack_half_adder_4 at 1( 0) + 0 on 97;
   architecture test of tbhack_half_adder_4 at 8( 113) + 0 on 98;
+file . "test_hack_incrementer_4.vhd" "f6b625cdd3e86630b093491bcc42ad8992cb81f6" "20250214231155.744":
+  entity tb_hack_incrementer_4 at 1( 0) + 0 on 91;
+  architecture behavior of tb_hack_incrementer_4 at 8( 115) + 0 on 92;
+file . "hack_incrementer_4.vhd" "5623a9d10dfed424c476ec6b0029aacc7d662b46" "20250214230415.014":
+  entity hack_incrementer_4 at 1( 0) + 0 on 85;
+  architecture rtl of hack_incrementer_4 at 11( 196) + 0 on 86;
+file . "test_hack_full_adder_1.vhd" "1c856f20f1481f1f02336e22d2a718d2fc634996" "20250214220754.281":
+  entity tbhack_full_adder_1 at 1( 0) + 0 on 81;
+  architecture test of tbhack_full_adder_1 at 7( 87) + 0 on 82;
+file . "hack_xnor.vhd" "e124232cb8281c86fb0a6cf5127ac32ad1cbc857" "20250214213427.355":
+  entity hack_xnor at 1( 0) + 0 on 63;
+  architecture rtl of hack_xnor at 12( 176) + 0 on 64;
+file . "test_hack_nor.vhd" "755be5652e0f57deceac4d7a49b5a334162d7611" "20250214212941.045":
+  entity tbhack_nor at 1( 0) + 0 on 61;
+  architecture test of tbhack_nor at 7( 78) + 0 on 62;
+file . "hack_xor.vhd" "64ddc163aec5c02e8fdd791e761a563b3bffb49e" "20250214212243.679":
+  entity hack_xor at 1( 0) + 0 on 51;
+  architecture rtl of hack_xor at 14( 226) + 0 on 52;
+file . "test_hack_or.vhd" "265d5d4b7cdc296ff93bd4f3c05487b510dd41a8" "20250214210224.259":
+  entity tbhack_or at 1( 0) + 0 on 49;
+  architecture test of tbhack_or at 7( 77) + 0 on 50;
+file . "hack_and.vhd" "f77fc745535eb7614484807dcefd4e35b7cbd644" "20250214204900.365":
+  entity hack_and at 1( 0) + 0 on 39;
+  architecture rtl of hack_and at 12( 175) + 0 on 40;
+file . "test_hack_not.vhd" "b2724c07e14195e6e552b9b00f7a90496afea4c7" "20250214204022.835":
+  entity tbhack_not at 1( 0) + 0 on 37;
+  architecture test of tbhack_not at 7( 78) + 0 on 38;
+file . "hack_nand.vhd" "17c8049b253364ec72ce8b640f0ff5edc488f09d" "20250214203045.181":
+  entity hack_nand at 1( 0) + 0 on 23;
+  architecture rtl of hack_nand at 14( 182) + 0 on 24;
+file . "test_hack_nand.vhd" "bf61719edad731ff098eabe864e23251882e87b2" "20250214203510.540":
+  entity tbhack_nand at 1( 0) + 0 on 31;
+  architecture test of tbhack_nand at 7( 79) + 0 on 32;
+file . "hack_not.vhd" "fcbeb4484999f61d1f6c319b1bc41467a0e40d56" "20250214203928.755":
+  entity hack_not at 1( 0) + 0 on 33;
+  architecture rtl of hack_not at 13( 154) + 0 on 34;
+file . "test_hack_and.vhd" "9d6488fe1abe3920086de6433ed27e121574c7f0" "20250214204933.116":
+  entity tbhack_and at 1( 0) + 0 on 43;
+  architecture test of tbhack_and at 7( 78) + 0 on 44;
+file . "hack_or.vhd" "f736af32b7e10bf3488c5edc543ee7bd9e6be9bb" "20250214210152.945":
+  entity hack_or at 1( 0) + 0 on 45;
+  architecture rtl of hack_or at 14( 222) + 0 on 46;
+file . "test_hack_xor.vhd" "45f30297a843466c83be4daa1f89ab92aa61f274" "20250214212321.393":
+  entity tbhack_xor at 1( 0) + 0 on 55;
+  architecture test of tbhack_xor at 7( 78) + 0 on 56;
+file . "hack_nor.vhd" "6b5c0d8a44bc1a6196a2fb2ba5ce616db7b7a233" "20250214212903.425":
+  entity hack_nor at 1( 0) + 0 on 57;
+  architecture rtl of hack_nor at 12( 175) + 0 on 58;
+file . "test_hack_xnor.vhd" "f02c68fabce151dcfce2de539013d2fbe678112a" "20250214213459.009":
+  entity tbhack_xnor at 1( 0) + 0 on 67;
+  architecture test of tbhack_xnor at 7( 79) + 0 on 68;
+file . "hack_half_adder_1.vhd" "0e34acbcdba1dc2c31e8e373cfb945a90f3561a3" "20250214214652.861":
+  entity hack_half_adder_1 at 1( 0) + 0 on 71;
+  architecture rtl of hack_half_adder_1 at 13( 212) + 0 on 72;
+file . "test_hack_half_adder_1.vhd" "9db00bcfbbca2427cf422cbc99fea0dc64b87a1b" "20250214214738.012":
+  entity tbhack_half_adder_1 at 1( 0) + 0 on 75;
+  architecture test of tbhack_half_adder_1 at 7( 87) + 0 on 76;
+file . "hack_full_adder_1.vhd" "e19409b0511e65ef5b1e501ff62f56b7e88a80e1" "20250214220702.881":
+  entity hack_full_adder_1 at 1( 0) + 0 on 77;
+  architecture rtl of hack_full_adder_1 at 14( 239) + 0 on 78;
+file . "hack_half_adder_4.vhd" "b54e955f8136595c3863579bd78d595e6e07751e" "20250215104250.013":
+  entity hack_half_adder_4 at 1( 0) + 0 on 99;
+  architecture rtl of hack_half_adder_4 at 13( 288) + 0 on 100;
+file . "hack_full_adder_4.vhd" "22b7f638a64bd85d8753fb5a625d6f5f499f760a" "20250215111043.613":
+  entity hack_full_adder_4 at 1( 0) + 0 on 117;
+  architecture rtl of hack_full_adder_4 at 12( 233) + 0 on 118;
+file . "test_hack_full_adder_4.vhd" "b91d3e89f562a842de1037f6d006ae981e1c40f7" "20250215112405.109":
+  entity tbhack_full_adder_4 at 1( 0) + 0 on 131;
+  architecture test of tbhack_full_adder_4 at 8( 113) + 0 on 132;
+file . "hack_full_adder_8.vhd" "2ac77d3868a56260ddff2c11161e2cec1479fe04" "20250215112254.104":
+  entity hack_full_adder_8 at 1( 0) + 0 on 127;
+  architecture rtl of hack_full_adder_8 at 12( 233) + 0 on 128;
+file . "test_hack_full_adder_8.vhd" "b8ac9be12c9f7ccf2b8c2974744bfcd1fabfb14d" "20250215112256.012":
+  entity tbhack_full_adder_8 at 1( 0) + 0 on 129;
+  architecture test of tbhack_full_adder_8 at 8( 113) + 0 on 130;

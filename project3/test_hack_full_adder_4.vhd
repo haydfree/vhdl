@@ -26,8 +26,8 @@ begin
                 else
                     expected_cout := '0';
                 end if;
-                assert(SUM=expected_output) report "Test failed for input " & integer'image(i) & ", " & integer'image(i) severity error;
-                assert(COUT=expected_cout) report "Test failed for input " & integer'image(i) & ", " & integer'image(i) severity error;
+                assert(SUM=expected_output) report "Test failed for input " & integer'image(i) & ", " & integer'image(j) severity error;
+                assert(COUT=expected_cout) report "Test failed for input " & integer'image(i) & ", " & integer'image(j) severity error;
             end loop;
         end loop;
         report "All tests passed successfully.";
