@@ -11,11 +11,11 @@ entity HACK_FULL_ADDER_2 is
 end entity;
 
 architecture rtl of HACK_FULL_ADDER_2 is
-    signal CARRY: std_logic_vector((IN0'left+1) downto (IN0'right));
+    signal CARRY: std_logic_vector(2 downto 0);
 begin
-    CARRY(IN0'right) <= CIN;
-    gen: for i in (IN0'right) to (IN0'left) generate
+    CARRY(CARRY'right) <= CIN;
+    gen: for i in 0 to 1 generate
         uHACK_FULL_ADDER_1: entity work.HACK_FULL_ADDER_1 port map(IN0=>IN0(i), IN1=>IN1(i), CIN=>CARRY(i), SUM=>SUM(i), COUT=>CARRY(i+1));
     end generate;
-    COUT <= CARRY(IN0'left+1);
+    COUT <= CARRY(CARRY'left);
 end architecture;
