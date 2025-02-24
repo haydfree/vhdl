@@ -1,3 +1,5 @@
-# nand2tetris
+# VHDL <br>
 
-my progress thru the n2t course
+me learning VHDL <br>
+
+warning! do not open this repo, avert your eyes!
